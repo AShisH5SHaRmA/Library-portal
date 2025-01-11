@@ -1,3 +1,4 @@
+
 package com.luv2code.springbootlibrary.controller;
 
 import com.luv2code.springbootlibrary.entity.Book;
@@ -9,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin("https://localhost:3000")
 @RestController
 @RequestMapping("/api/books")
 public class BookController {
@@ -64,15 +65,3 @@ public class BookController {
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
